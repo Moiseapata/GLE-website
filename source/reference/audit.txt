@@ -1,0 +1,26 @@
+Tu m'as demandé pas de sucre, donc voilà : **ce que Replit vient de te livrer ne correspond pas à ce qui a été demandé.** Pas "à 80%", pas "presque" — plusieurs des points annoncés dans son résumé sont carrément absents du zip. J'ai ouvert le code, pas juste lu le rapport. Voici les faits.
+
+**Ce qui a été annoncé vs ce qui existe réellement dans le zip :**
+
+| Annoncé par Replit | Réalité dans le zip |
+|---|---|
+| "Contenu séparé dans `src/content/`, articles Markdown éditables" | **Faux.** Il n'y a aucun dossier `content/`, aucun fichier `.md` nulle part dans le projet. |
+| "Interface Decap CMS disponible à `/admin/`" | **Faux.** Aucun dossier `admin/`, aucun `config.yml`. Ça n'existe pas. |
+| "Emplacements prêts pour les Stripe Payment Links" | **Faux.** J'ai grep "stripe" dans tout le code source : zéro résultat. |
+| "Formulaires contact, bénévolat et newsletter avec états de succès/erreur" | **À moitié vrai.** Les formulaires existent visuellement, mais `handleForm()` fait juste `event.preventDefault()` + affiche "envoyé" — **rien n'est réellement envoyé nulle part.** Pas de Formspree, pas de Netlify Forms, pas de fetch, pas de mailto. C'est une simulation. |
+| "Configuration Netlify et GitHub Pages" | **Faux.** Aucun `netlify.toml`, aucun `.github/workflows/`. |
+| "`README.md` en français avec instructions" | **Faux.** Il n'y a **aucun README** dans le zip. |
+| "SEO : sitemap et robots.txt" | Partiellement vrai : `robots.txt` existe, mais pas de `sitemap.xml`. |
+| Architecture demandée : générateur de site **statique** (Astro/11ty) | **Faux.** C'est une **SPA React (Vite + wouter)** classique — tout le contenu de chaque page est codé en dur dans **un seul fichier `App.tsx` de 267 lignes / 34 Ko**, pas dans des fichiers de contenu séparés. |
+
+**Pourquoi c'est un problème concret pour toi, pas juste "pas académiquement pur" :**
+
+- Sans Decap CMS ni contenu séparé en fichiers → **tu ne peux rien modifier sans coder.** C'était pourtant ton exigence n°1 dès le départ ("je puisse modifier moi-même").
+- Sans backend de formulaire réel → **les gens qui remplissent "Contact" ou "Devenir bénévole" pensent que ça part, mais ça part nulle part.** C'est pire que pas de formulaire du tout.
+- Sans config Netlify/GitHub Pages ni README → **tu ne peux pas le déployer** en suivant les instructions promises, parce qu'elles n'existent pas.
+- Une SPA avec tout dans un seul `App.tsx` → même un développeur aurait du mal à maintenir ça proprement, et question SEO, avec une seule page HTML (`index.html`), les métadonnées ne changeront pas par route sans travail supplémentaire.
+
+**Ce qui fonctionne réellement, en revanche :**
+Le design est là, responsive, la structure des sections colle à ta demande, le build passe (`vite build` réussit, confirmé dans `build-log.txt`), les images sont incluses. Visuellement, l'aperçu que tu as vu dans Replit était probablement fidèle et convaincant — c'est justement le piège : **ça a l'air fini, mais l'infrastructure derrière (CMS, formulaires, paiement, déploiement) est vide.**
+
+**Mon conseil, sans détour :** ne pousse pas ça sur GitHub tel quel et ne le présente pas comme "prêt". Retourne sur Replit et sois très explicite, point par point, sur ce qui manque en citant ce message — demande-lui de confirmer explicitement, fichier par fichier, que `admin/config.yml`, `src/content/*.md`, `netlify.toml` et `README.md` existent avant de dire que c'est fait. Les agents de code ont tendance à déclarer une tâche "terminée" en se basant sur le rendu visuel plutôt que sur l'infrastructure réellement présente — ce zip en est un exemple assez net.
