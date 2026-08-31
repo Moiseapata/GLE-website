@@ -54,9 +54,12 @@ export type Program = {
   text: string;
 };
 
+export type ProjectTagKey = 'schools' | 'partnerships' | 'communities' | 'forests' | 'coastline';
+
 export type Project = {
   id: string;
   image: string;
+  tagKey: ProjectTagKey;
   tag: string;
   title: string;
   place: string;
@@ -85,16 +88,16 @@ export const siteContent = {
     { number: '05', icon: Leaf, title: 'Littoral & mangroves', text: 'À Grand-Bassam et dans les villages lagunaires, nous restaurons les berges avec les communautés riveraines.' },
   ] satisfies Program[],
   projects: [
-    { id: 'solibra-groupe', image: '/images/gle-solibra-groupe.jpg', tag: 'Partenariats', title: 'Une plantation suivie', place: 'Samoukaha · Dianra', text: solibraFieldStory },
-    { id: 'solibra-planting', image: '/images/gle-solibra-planting.jpg', tag: 'Partenariats', title: 'Éducation au développement durable', place: 'Toumodi & Dianra', text: solibraFieldStory },
-    { id: 'festival-yamoussoukro-groupe', image: '/images/gle-festival-yamoussoukro-groupe.jpg', tag: 'Écoles', title: 'Un hectare pour apprendre', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
-    { id: 'festival-yamoussoukro-plantation', image: '/images/gle-festival-yamoussoukro-plantation.jpg', tag: 'Écoles', title: 'La cour devient forêt', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
-    { id: 'festival-officiels', image: '/images/gle-festival-officiels.jpg', tag: 'Écoles', title: 'Les plants du festival scolaire', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
-    { id: 'festival-ceremonie', image: '/images/gle-festival-ceremonie.jpg', tag: 'Écoles', title: 'Un hectare pour apprendre', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
-    { id: 'dabou', image: '/images/gli-school-forest.jpg', tag: 'Écoles', title: 'La cour devient forêt', place: 'Dabou · Sud-Comoé', text: 'Les élèves de l’école de N’Guessankro entretiennent 2 hectares de jeunes plants autour de leur classe.' },
-    { id: 'korhogo', image: '/images/gli-community-nursery.jpg', tag: 'Communautés', title: 'La pépinière des mains', place: 'Korhogo · Poro', text: 'Une pépinière de 12 000 plants, portée par 34 familles, prépare la prochaine saison des pluies.' },
-    { id: 'agboville', image: '/images/gli-reforestation-plot.jpg', tag: 'Forêts', title: 'Voir grandir le sol', place: 'Agboville · Agnéby-Tiassa', text: 'Sur l’ancienne parcelle agricole, les alignements d’arbres dessinent déjà un corridor vivant.' },
-    { id: 'grand-bassam', image: '/images/gli-mangrove-restoration.jpg', tag: 'Littoral', title: 'Les racines de la lagune', place: 'Grand-Bassam · Sud-Comoé', text: 'Les riverains replantent des palétuviers pour ralentir l’érosion et protéger les nurseries de poissons.' },
+    { id: 'solibra-groupe', image: '/images/gle-solibra-groupe.jpg', tagKey: 'partnerships', tag: 'Partenariats', title: 'Une plantation suivie', place: 'Samoukaha · Dianra', text: solibraFieldStory },
+    { id: 'solibra-planting', image: '/images/gle-solibra-planting.jpg', tagKey: 'partnerships', tag: 'Partenariats', title: 'Éducation au développement durable', place: 'Toumodi & Dianra', text: solibraFieldStory },
+    { id: 'festival-yamoussoukro-groupe', image: '/images/gle-festival-yamoussoukro-groupe.jpg', tagKey: 'schools', tag: 'Écoles', title: 'Un hectare pour apprendre', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
+    { id: 'festival-yamoussoukro-plantation', image: '/images/gle-festival-yamoussoukro-plantation.jpg', tagKey: 'schools', tag: 'Écoles', title: 'La cour devient forêt', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
+    { id: 'festival-officiels', image: '/images/gle-festival-officiels.jpg', tagKey: 'schools', tag: 'Écoles', title: 'Les plants du festival scolaire', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
+    { id: 'festival-ceremonie', image: '/images/gle-festival-ceremonie.jpg', tagKey: 'schools', tag: 'Écoles', title: 'Un hectare pour apprendre', place: 'Yamoussoukro · Groupe scolaire Résidentiel', text: yamoussoukroFieldStory },
+    { id: 'dabou', image: '/images/gli-school-forest.jpg', tagKey: 'schools', tag: 'Écoles', title: 'La cour devient forêt', place: 'Dabou · Sud-Comoé', text: 'Les élèves de l’école de N’Guessankro entretiennent 2 hectares de jeunes plants autour de leur classe.' },
+    { id: 'korhogo', image: '/images/gli-community-nursery.jpg', tagKey: 'communities', tag: 'Communautés', title: 'La pépinière des mains', place: 'Korhogo · Poro', text: 'Une pépinière de 12 000 plants, portée par 34 familles, prépare la prochaine saison des pluies.' },
+    { id: 'agboville', image: '/images/gli-reforestation-plot.jpg', tagKey: 'forests', tag: 'Forêts', title: 'Voir grandir le sol', place: 'Agboville · Agnéby-Tiassa', text: 'Sur l’ancienne parcelle agricole, les alignements d’arbres dessinent déjà un corridor vivant.' },
+    { id: 'grand-bassam', image: '/images/gli-mangrove-restoration.jpg', tagKey: 'coastline', tag: 'Littoral', title: 'Les racines de la lagune', place: 'Grand-Bassam · Sud-Comoé', text: 'Les riverains replantent des palétuviers pour ralentir l’érosion et protéger les nurseries de poissons.' },
   ] satisfies Project[],
   faqs: [
     { q: 'Où sont situés les projets de Green Legacy Initiative ?', a: 'Tous nos projets actifs sont en Côte d’Ivoire. Nous travaillons avec des écoles et des communautés de Dabou, Agboville, Korhogo, Grand-Bassam et d’autres territoires ivoiriens selon les partenariats locaux.' },
