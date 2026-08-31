@@ -105,5 +105,7 @@ export const siteContent = {
     { q: 'Comment calculez-vous les arbres survivants ?', a: 'Les équipes de terrain recensent les parcelles à intervalles réguliers. Le taux de survie est calculé sur les plants suivis après leur première saison sèche, et non sur une projection.' },
     { q: 'Puis-je venir participer à un chantier ?', a: 'Oui. Nous ouvrons plusieurs journées participatives par saison des pluies. Laissez-nous vos coordonnées dans le formulaire bénévole : l’équipe vous proposera une date et un projet adaptés.' },
     { q: 'Comment suivez-vous l’utilisation des dons ?', a: 'Chaque projet possède une fiche de suivi : parcelle, essence, date de plantation et taux de survie. Nous partageons un bilan annuel et les nouvelles de terrain dans notre lettre.' },
+    { q: 'Puis-je obtenir un reçu fiscal pour mon don ?', a: 'Nous travaillons actuellement à mettre en place cette possibilité. Contactez-nous directement si vous en avez besoin, nous reviendrons vers vous dès que la démarche sera formalisée.' },
+    { q: 'Puis-je donner de façon régulière plutôt que ponctuelle ?', a: 'Pas encore via notre page de don en ligne, mais l’option arrive prochainement. En attendant, écrivez-nous et nous organiserons un don récurrent avec vous directement.' },
   ],
 };

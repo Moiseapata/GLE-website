@@ -37,6 +37,19 @@ export const translations = {
       body2: 'Notre travail commence par l’écoute. Les essences sont choisies avec les habitants, les parcelles sont cartographiées et les arbres sont suivis après la photo du jour de plantation.',
       note: 'Des résultats documentés, des histoires racontées sans détour.',
     },
+    impact: {
+      eyebrow: 'Notre impact',
+      titleLine1: 'Ces chiffres ne sont',
+      titleLine2: 'pas une fin en soi.',
+      body: 'Derrière chaque arbre se trouvent une parcelle, une personne et un engagement à long terme.',
+      stats: [
+        { key: 'trees', label: 'arbres plantés' },
+        { key: 'hectares', label: 'hectares restaurés' },
+        { key: 'schools', label: 'écoles partenaires' },
+        { key: 'survival', label: 'de survie des plants' },
+      ],
+      methodNote: 'Chiffres recensés par nos équipes de terrain, mis à jour chaque saison.',
+    },
     vision: {
       eyebrow: 'Notre vision',
       titleLine1: 'Un avenir',
@@ -179,6 +192,14 @@ export const translations = {
       statusRetry: 'Réessayer',
       statusAnother: 'Envoyer un autre message',
     },
+    prochaines: {
+      eyebrow: 'À venir',
+      titleLine1: 'Ce que nous',
+      titleLine2: 'préparons.',
+      body: 'Nos prochaines actions sont en cours de planification avec nos partenaires et équipes locales.',
+      placeholder: 'Prochaine action à confirmer — dates et lieux annoncés ici dès qu’ils sont fixés.',
+      cta: 'Être informé de nos prochaines actions',
+    },
     faq: {
       eyebrow: 'Questions fréquentes',
       titleLine1: 'Parlons',
@@ -249,6 +270,19 @@ export const translations = {
       treesLabel: 'trees planted together',
       body2: 'Our work starts with listening. Species are chosen with residents, plots are mapped, and trees are tracked well beyond the planting-day photo.',
       note: 'Documented results, stories told without embellishment.',
+    },
+    impact: {
+      eyebrow: 'Our impact',
+      titleLine1: 'These numbers are',
+      titleLine2: 'not an end in themselves.',
+      body: 'Behind every tree is a plot, a person and a long-term commitment.',
+      stats: [
+        { key: 'trees', label: 'trees planted' },
+        { key: 'hectares', label: 'hectares restored' },
+        { key: 'schools', label: 'partner schools' },
+        { key: 'survival', label: 'sapling survival rate' },
+      ],
+      methodNote: 'Figures recorded by our field teams, updated every season.',
     },
     vision: {
       eyebrow: 'Our vision',
@@ -391,6 +425,14 @@ export const translations = {
       requiredError: 'This field is required.',
       statusRetry: 'Try again',
       statusAnother: 'Send another message',
+    },
+    prochaines: {
+      eyebrow: 'Coming up',
+      titleLine1: 'What we’re',
+      titleLine2: 'preparing.',
+      body: 'Our next actions are being planned with our partners and local teams.',
+      placeholder: 'Next action to be confirmed — dates and locations will be announced here once set.',
+      cta: 'Get notified about our next actions',
     },
     faq: {
       eyebrow: 'Frequently asked questions',

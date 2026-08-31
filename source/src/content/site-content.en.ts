@@ -52,5 +52,7 @@ export const siteContentEn = {
     { q: 'How do you calculate surviving trees?', a: 'Field teams survey the plots at regular intervals. The survival rate is calculated on saplings tracked after their first dry season, not on a projection.' },
     { q: 'Can I come and take part in a work day?', a: 'Yes. We open several participatory days each rainy season. Leave us your details in the volunteer form and our team will suggest a date and a project that fits.' },
     { q: 'How do you track how donations are used?', a: 'Every project has a tracking sheet: plot, species, planting date and survival rate. We share an annual report and field news in our newsletter.' },
+    { q: 'Can I get a tax receipt for my donation?', a: 'We’re currently working on making this available. Contact us directly if you need one, and we’ll follow up once the process is formalized.' },
+    { q: 'Can I give on a recurring basis instead of a one-time gift?', a: 'Not yet through our online donation page, but the option is coming soon. In the meantime, write to us and we’ll set up a recurring donation with you directly.' },
   ],
 };
