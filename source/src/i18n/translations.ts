@@ -90,6 +90,11 @@ export const translations = {
         { title: 'Une volonté de transparence', text: 'Nous voulons pouvoir montrer ce qui est réalisé, comment les ressources sont utilisées et quels résultats sont obtenus.' },
       ],
     },
+    equipe: {
+      eyebrow: 'L’équipe',
+      titleLine1: 'Les personnes',
+      titleLine2: 'derrière Green Legacy.',
+    },
     don: {
       eyebrow: 'Faire grandir une forêt',
       titleLine1: 'Chaque geste',
@@ -323,6 +328,11 @@ export const translations = {
         { title: 'A long-term vision', text: 'Planting is one step. Restoration and long-term monitoring are essential.' },
         { title: 'A commitment to transparency', text: 'We want to be able to show what has been achieved, how resources are used, and what results are obtained.' },
       ],
+    },
+    equipe: {
+      eyebrow: 'The team',
+      titleLine1: 'The people',
+      titleLine2: 'behind Green Legacy.',
     },
     don: {
       eyebrow: 'Growing a forest',

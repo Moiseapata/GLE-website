@@ -66,7 +66,15 @@ export type Project = {
   text: string;
 };
 
+export type TeamMember = {
+  name: string;
+  role: string;
+};
+
 export const siteContent = {
+  team: [
+    { name: 'Colonel Apata Nicolas', role: 'Chef de projet du programme « Une école, 5 hectares de forêt » · Colonel des Eaux et Forêts' },
+  ] satisfies TeamMember[],
   brand: {
     name: 'Green Legacy Initiative',
     strapline: homeDocument.metadata.eyebrow ?? 'ONG basée à Genève · terrain ivoirien',

@@ -5,7 +5,7 @@ import {
   TreePine,
   Users,
 } from 'lucide-react';
-import type { Program, Project } from './site-content';
+import type { Program, Project, TeamMember } from './site-content';
 
 const solibraFieldStoryEn =
   'With our partner SOLIBRA, for its 70th anniversary, Green Legacy Initiative organized a reforestation drive followed by sustainable-development education with students from Mondoukro in Toumodi and Samoukaha in Dianra, restoring 5 hectares alongside the lessons.';
@@ -14,6 +14,9 @@ const yamoussoukroFieldStoryEn =
   'At the Arts and Culture in Schools Festival in Yamoussoukro, Green Legacy Initiative supplied the saplings used to reforest 1 hectare at the Résidentiel school group.';
 
 export const siteContentEn = {
+  team: [
+    { name: 'Colonel Apata Nicolas', role: 'Project lead for the "One school, 5 hectares of forest" program · Colonel of the Eaux et Forêts (Water and Forestry Corps)' },
+  ] satisfies TeamMember[],
   brand: {
     name: 'Green Legacy Initiative',
     strapline: 'Geneva-based NGO · Ivorian ground operations',
