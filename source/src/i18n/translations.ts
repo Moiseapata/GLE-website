@@ -211,6 +211,13 @@ export const translations = {
       titleLine2: 'clair.',
       body: 'La transparence n’est pas une page à part. C’est la manière dont nous travaillons.',
     },
+    graine: {
+      eyebrow: 'Notre méthode',
+      titleLine1: 'De la graine',
+      titleLine2: 'à la forêt.',
+      body: 'Tout commence par une petite graine. Elle est produite dans une pépinière locale, entretenue, puis plantée avec la communauté. Mais notre travail ne s’arrête pas là : les mois suivants, les plants doivent être protégés, entretenus et suivis. C’est cette continuité qui transforme une plantation en projet de restauration.',
+      steps: ['Pépinière', 'Préparation des plants', 'Plantation', 'Entretien', 'Suivi', 'Forêt restaurée'],
+    },
     heritage: {
       title: 'Quel héritage voulons-nous laisser ?',
       lines: [
@@ -449,6 +456,13 @@ export const translations = {
       titleLine1: 'Let’s talk',
       titleLine2: 'plainly.',
       body: 'Transparency isn’t a separate page. It’s how we work.',
+    },
+    graine: {
+      eyebrow: 'Our method',
+      titleLine1: 'From seed',
+      titleLine2: 'to forest.',
+      body: 'It all starts with a small seed. It’s grown in a local nursery, tended, then planted together with the community. But our work doesn’t stop there: over the following months, the saplings need to be protected, maintained and monitored. It’s this continuity that turns a planting into a restoration project.',
+      steps: ['Nursery', 'Preparing the saplings', 'Planting', 'Maintenance', 'Monitoring', 'Restored forest'],
     },
     heritage: {
       title: 'What legacy do we want to leave behind?',
