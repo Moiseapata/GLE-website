@@ -66,11 +66,35 @@ export const translations = {
       support: 'Soutenir ce terrain',
       footnote: '100 % des projets présentés ici sont en Côte d’Ivoire.',
     },
+    pourquoi: {
+      eyebrow: 'Ce qui nous distingue',
+      titleLine1: 'Notre façon de',
+      titleLine2: 'faire la différence.',
+      cards: [
+        { title: 'Une action locale', text: 'Nos projets sont pensés pour répondre aux réalités des territoires dans lesquels nous intervenons.' },
+        { title: 'Une approche communautaire', text: 'Les populations locales ne sont pas simplement bénéficiaires des projets : elles en sont des actrices.' },
+        { title: 'Une vision à long terme', text: 'Planter est une étape. La restauration et le suivi dans le temps sont essentiels.' },
+        { title: 'Une volonté de transparence', text: 'Nous voulons pouvoir montrer ce qui est réalisé, comment les ressources sont utilisées et quels résultats sont obtenus.' },
+      ],
+    },
     don: {
       eyebrow: 'Faire grandir une forêt',
       titleLine1: 'Chaque geste',
       titleLine2: 'laisse une trace.',
       body: 'Notre modèle est simple à comprendre, parce que la confiance commence par la clarté. Explorez l’impact indicatif de votre don.',
+      donBecomes: {
+        eyebrow: 'Concrètement',
+        title: 'Votre don devient une action sur le terrain.',
+        intro: 'Lorsque vous soutenez Green Legacy Initiative, votre contribution peut participer à :',
+        items: [
+          { title: 'Produire les plants', text: 'Semences, substrats, contenants et matériel nécessaire aux pépinières.' },
+          { title: 'Aller sur le terrain', text: 'Transport des plants, du matériel et des équipes.' },
+          { title: 'Former et accompagner', text: 'Transmission des connaissances et accompagnement des communautés impliquées.' },
+          { title: 'Entretenir et suivre', text: 'Entretien des parcelles, remplacement des plants et suivi des plantations.' },
+          { title: 'Faire fonctionner l’association', text: 'Coordination, administration, communication et outils nécessaires à la bonne gestion des projets.' },
+        ],
+        note: 'Nous publierons progressivement des données financières détaillées afin que chacun puisse comprendre comment les ressources qui nous sont confiées sont utilisées.',
+      },
       bullets: [
         '0,30 € par arbre planté',
         '22 kg de CO₂ captés par arbre / an',
@@ -161,6 +185,17 @@ export const translations = {
       titleLine2: 'clair.',
       body: 'La transparence n’est pas une page à part. C’est la manière dont nous travaillons.',
     },
+    heritage: {
+      title: 'Quel héritage voulons-nous laisser ?',
+      lines: [
+        'Une forêt restaurée commence par une action.',
+        'Une communauté engagée peut la faire durer.',
+        'Et chaque génération peut contribuer à transmettre un monde plus vivant à la suivante.',
+      ],
+      sub: 'Construisons cet héritage ensemble.',
+      donate: 'Faire un don',
+      other: 'Nous soutenir autrement',
+    },
     footer: {
       newsletterTitle: 'Une lettre, de vraies nouvelles du terrain.',
       emailLabel: 'Votre adresse email',
@@ -244,11 +279,35 @@ export const translations = {
       support: 'Support this project',
       footnote: '100% of the projects shown here are in Côte d’Ivoire.',
     },
+    pourquoi: {
+      eyebrow: 'What sets us apart',
+      titleLine1: 'Our way of',
+      titleLine2: 'making a difference.',
+      cards: [
+        { title: 'Locally rooted action', text: 'Our projects are designed to respond to the realities of the territories where we work.' },
+        { title: 'A community-driven approach', text: 'Local populations are not simply beneficiaries of our projects: they are active participants.' },
+        { title: 'A long-term vision', text: 'Planting is one step. Restoration and long-term monitoring are essential.' },
+        { title: 'A commitment to transparency', text: 'We want to be able to show what has been achieved, how resources are used, and what results are obtained.' },
+      ],
+    },
     don: {
       eyebrow: 'Growing a forest',
       titleLine1: 'Every gesture',
       titleLine2: 'leaves a mark.',
       body: 'Our model is easy to understand, because trust starts with clarity. Explore the indicative impact of your donation.',
+      donBecomes: {
+        eyebrow: 'In practice',
+        title: 'Your donation becomes action on the ground.',
+        intro: 'When you support Green Legacy Initiative, your contribution can help:',
+        items: [
+          { title: 'Produce the saplings', text: 'Seeds, growing substrate, containers and equipment needed for the nurseries.' },
+          { title: 'Get to the field', text: 'Transport of saplings, equipment and teams.' },
+          { title: 'Train and support', text: 'Sharing knowledge and supporting the communities involved.' },
+          { title: 'Maintain and monitor', text: 'Plot maintenance, replacing saplings and tracking plantations.' },
+          { title: 'Run the association', text: 'Coordination, administration, communication and the tools needed to manage projects well.' },
+        ],
+        note: 'We will progressively publish detailed financial data so everyone can understand how the resources entrusted to us are used.',
+      },
       bullets: [
         '€0.30 per tree planted',
         '22 kg of CO₂ captured per tree / year',
@@ -338,6 +397,17 @@ export const translations = {
       titleLine1: 'Let’s talk',
       titleLine2: 'plainly.',
       body: 'Transparency isn’t a separate page. It’s how we work.',
+    },
+    heritage: {
+      title: 'What legacy do we want to leave behind?',
+      lines: [
+        'A restored forest starts with one action.',
+        'An engaged community can make it last.',
+        'And every generation can help pass on a more living world to the next.',
+      ],
+      sub: 'Let’s build this legacy together.',
+      donate: 'Make a donation',
+      other: 'Support us another way',
     },
     footer: {
       newsletterTitle: 'A letter, with real news from the field.',
