@@ -4,7 +4,7 @@
 // - useGetImpactSummary / useHealthCheck échouent proprement (isError=true) et
 //   l'UI retombe sur ses valeurs par défaut, comme prévu dans App.tsx.
 // - Les 3 formulaires (contact, bénévole, newsletter) sont envoyés directement
-//   à Formspree (formspree.io), qui relaie vers onggreenlegacy.initiative@gmail.com
+//   à Formspree (formspree.io), qui relaie vers ongreenlegacy.intitiative@gmail.com
 //   sans backend à héberger.
 import { useMutation, useQuery } from '@tanstack/react-query';
 

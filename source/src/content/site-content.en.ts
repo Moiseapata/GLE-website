@@ -20,7 +20,7 @@ export const siteContentEn = {
   brand: {
     name: 'Green Legacy Initiative',
     strapline: 'Geneva-based NGO · Ivorian ground operations',
-    email: 'onggreenlegacy.initiative@gmail.com',
+    email: 'ongreenlegacy.intitiative@gmail.com',
     locations: 'Abidjan · Agboville · Dabou · Korhogo · Grand-Bassam',
   },
   hero: {
