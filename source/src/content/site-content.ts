@@ -4,6 +4,7 @@ import {
   Sprout,
   TreePine,
   Users,
+  Wheat,
   type LucideIcon,
 } from 'lucide-react';
 import homeMarkdown from './home.md?raw';
@@ -86,6 +87,7 @@ export const siteContent = {
     { number: '03', icon: BookOpen, title: 'Éducation par le vivant', text: 'Des outils pédagogiques en français et en langues locales reconnectent les enfants aux cycles de leur territoire.' },
     { number: '04', icon: Users, title: 'Chantiers participatifs', text: 'Habitants, enseignants et équipes techniques décident ensemble où planter, comment suivre et quoi transmettre.' },
     { number: '05', icon: Leaf, title: 'Littoral & mangroves', text: 'À Grand-Bassam et dans les villages lagunaires, nous restaurons les berges avec les communautés riveraines.' },
+    { number: '06', icon: Wheat, title: 'Agroforesterie & sécurité alimentaire', text: 'Nos programmes d’agroforesterie accompagnent des femmes productrices de cultures vivrières ; une partie de leurs récoltes contribue aux cantines scolaires pour lutter contre la faim des enfants.' },
   ] satisfies Program[],
   projects: [
     { id: 'solibra-groupe', image: '/images/gle-solibra-groupe.jpg', tagKey: 'partnerships', tag: 'Partenariats', title: 'Une plantation suivie', place: 'Samoukaha · Dianra', text: solibraFieldStory },

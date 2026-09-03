@@ -4,6 +4,7 @@ import {
   Sprout,
   TreePine,
   Users,
+  Wheat,
 } from 'lucide-react';
 import type { Program, Project } from './site-content';
 
@@ -33,6 +34,7 @@ export const siteContentEn = {
     { number: '03', icon: BookOpen, title: 'Education through nature', text: 'Teaching tools in French and local languages reconnect children to the cycles of their land.' },
     { number: '04', icon: Users, title: 'Participatory work days', text: 'Residents, teachers and technical teams decide together where to plant, how to monitor, and what to pass on.' },
     { number: '05', icon: Leaf, title: 'Coastline & mangroves', text: 'In Grand-Bassam and lagoon-side villages, we restore shorelines with the communities who live along them.' },
+    { number: '06', icon: Wheat, title: 'Agroforestry & food security', text: 'Our agroforestry programs support women growing food crops; part of their harvest goes to school canteens to help fight child hunger.' },
   ] satisfies Program[],
   projects: [
     { id: 'solibra-groupe', image: '/images/gle-solibra-groupe.jpg', tagKey: 'partnerships', tag: 'Partnerships', title: 'A monitored planting', place: 'Samoukaha · Dianra', text: solibraFieldStoryEn },

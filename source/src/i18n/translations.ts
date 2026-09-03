@@ -111,7 +111,7 @@ export const translations = {
       titleLine2: 's’engager à nos côtés.',
       cards: [
         { title: 'Don individuel', text: 'Chaque contribution, quelle que soit sa taille, aide Green Legacy Initiative à faire grandir de nouvelles forêts et à accompagner les communautés locales.', cta: 'Faire un don', target: 'don' },
-        { title: 'Mécénat d’entreprise', text: 'Inscrivez l’engagement RSE de votre entreprise dans une démarche d’impact environnemental concret, en Suisse comme en Côte d’Ivoire.', cta: 'Devenir mécène', target: 'contact' },
+        { title: 'Mécénat d’entreprise', text: 'Inscrivez l’engagement RSE de votre entreprise dans une démarche d’impact environnemental et social concret, en Suisse comme en Côte d’Ivoire. Nous offrons à nos entreprises partenaires une visibilité internationale et un accompagnement dans la valorisation du carbone séquestré par nos plantations au titre de leur stratégie RSE.', cta: 'Devenir mécène', target: 'contact' },
         { title: 'Partenariat stratégique', text: 'Construisez avec nous un partenariat de long terme autour d’un ou plusieurs de nos programmes de reforestation.', cta: 'Nous contacter', target: 'contact' },
       ],
     },
@@ -351,7 +351,7 @@ export const translations = {
       titleLine2: 'get involved with us.',
       cards: [
         { title: 'Individual donation', text: 'Every contribution, whatever its size, helps Green Legacy Initiative grow new forests and support local communities.', cta: 'Make a donation', target: 'don' },
-        { title: 'Corporate sponsorship', text: 'Bring your company’s CSR commitment into a concrete environmental impact effort, in Switzerland as well as in Côte d’Ivoire.', cta: 'Become a sponsor', target: 'contact' },
+        { title: 'Corporate sponsorship', text: 'Bring your company’s CSR commitment into a concrete environmental and social impact effort, in Switzerland as well as in Côte d’Ivoire. We offer our corporate partners international visibility and support in valuing the carbon sequestered by our plantations as part of their CSR strategy.', cta: 'Become a sponsor', target: 'contact' },
         { title: 'Strategic partnership', text: 'Build a long-term partnership with us around one or more of our reforestation programs.', cta: 'Contact us', target: 'contact' },
       ],
     },
