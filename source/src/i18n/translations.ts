@@ -105,6 +105,16 @@ export const translations = {
       cta: 'Je veux contribuer',
       note: 'Le paiement sécurisé sera proposé lors de la prochaine étape.',
     },
+    engager: {
+      eyebrow: 'Nous soutenir autrement',
+      titleLine1: 'Plusieurs façons de',
+      titleLine2: 's’engager à nos côtés.',
+      cards: [
+        { title: 'Don individuel', text: 'Chaque contribution, quelle que soit sa taille, aide Green Legacy Initiative à faire grandir de nouvelles forêts et à accompagner les communautés locales.', cta: 'Faire un don', target: 'don' },
+        { title: 'Mécénat d’entreprise', text: 'Inscrivez l’engagement RSE de votre entreprise dans une démarche d’impact environnemental concret, en Suisse comme en Côte d’Ivoire.', cta: 'Devenir mécène', target: 'contact' },
+        { title: 'Partenariat stratégique', text: 'Construisez avec nous un partenariat de long terme autour d’un ou plusieurs de nos programmes de reforestation.', cta: 'Nous contacter', target: 'contact' },
+      ],
+    },
     journal: {
       eyebrow: 'Le journal',
       titleLine1: 'Nouvelles du',
@@ -334,6 +344,16 @@ export const translations = {
       impactNote: 'This amount directly supports our next planting campaigns and the monitoring of plots already underway.',
       cta: 'I want to contribute',
       note: 'Secure payment will be offered at the next step.',
+    },
+    engager: {
+      eyebrow: 'Support us another way',
+      titleLine1: 'Several ways to',
+      titleLine2: 'get involved with us.',
+      cards: [
+        { title: 'Individual donation', text: 'Every contribution, whatever its size, helps Green Legacy Initiative grow new forests and support local communities.', cta: 'Make a donation', target: 'don' },
+        { title: 'Corporate sponsorship', text: 'Bring your company’s CSR commitment into a concrete environmental impact effort, in Switzerland as well as in Côte d’Ivoire.', cta: 'Become a sponsor', target: 'contact' },
+        { title: 'Strategic partnership', text: 'Build a long-term partnership with us around one or more of our reforestation programs.', cta: 'Contact us', target: 'contact' },
+      ],
     },
     journal: {
       eyebrow: 'The journal',
