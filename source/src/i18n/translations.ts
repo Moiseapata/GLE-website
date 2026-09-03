@@ -211,6 +211,24 @@ export const translations = {
       titleLine2: 'clair.',
       body: 'La transparence n’est pas une page à part. C’est la manière dont nous travaillons.',
     },
+    commitments: {
+      eyebrow: 'Engagement',
+      title: 'Ce que nous faisons, ce que nous ne faisons pas',
+      weDoTitle: 'Ce que nous faisons',
+      weDo: [
+        'Reboisement et restauration de parcelles avec les communautés locales',
+        'Éducation environnementale dans les écoles partenaires',
+        'Pépinières communautaires et formation des équipes locales',
+        'Publication d’un bilan annuel de nos actions',
+      ],
+      weDoNotTitle: 'Ce que nous ne faisons pas',
+      weDoNot: [
+        'Nous ne distribuons aucun bénéfice à nos membres ou dirigeants',
+        'Nous ne finançons aucune activité politique ou religieuse',
+        'Nous ne vendons aucun bien ou service : nos ressources proviennent de dons et partenariats',
+        'Nous ne compromettons pas la traçabilité de nos projets de terrain',
+      ],
+    },
     graine: {
       eyebrow: 'Notre méthode',
       titleLine1: 'De la graine',
@@ -244,7 +262,7 @@ export const translations = {
       findUs: 'Nous trouver',
       secondAddress: 'Abidjan, Côte d’Ivoire',
       copyright: '© 2026 Green Legacy Initiative. Une forêt se construit ensemble.',
-      tagline: 'ONG basée à Genève · actions de terrain en Côte d’Ivoire.',
+      tagline: 'Association à but non lucratif de droit suisse, fondée en 2024 · siège à Genève · actions de terrain en Côte d’Ivoire.',
     },
   },
   en: {
@@ -457,6 +475,24 @@ export const translations = {
       titleLine2: 'plainly.',
       body: 'Transparency isn’t a separate page. It’s how we work.',
     },
+    commitments: {
+      eyebrow: 'Commitment',
+      title: 'What we do, what we don’t do',
+      weDoTitle: 'What we do',
+      weDo: [
+        'Reforestation and restoration of plots with local communities',
+        'Environmental education in partner schools',
+        'Community nurseries and training of local teams',
+        'Publication of an annual report on our activities',
+      ],
+      weDoNotTitle: 'What we don’t do',
+      weDoNot: [
+        'We do not distribute any profit to our members or leaders',
+        'We do not fund any political or religious activity',
+        'We do not sell any goods or services: our resources come from donations and partnerships',
+        'We do not compromise on the traceability of our field projects',
+      ],
+    },
     graine: {
       eyebrow: 'Our method',
       titleLine1: 'From seed',
@@ -490,7 +526,7 @@ export const translations = {
       findUs: 'Find us',
       secondAddress: 'Abidjan, Côte d’Ivoire',
       copyright: '© 2026 Green Legacy Initiative. A forest is built together.',
-      tagline: 'Geneva-based NGO · field operations in Côte d’Ivoire.',
+      tagline: 'Non-profit association under Swiss law, founded in 2024 · headquartered in Geneva · field operations in Côte d’Ivoire.',
     },
   },
 } satisfies Record<Lang, unknown>;
