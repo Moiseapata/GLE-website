@@ -5,7 +5,7 @@ import {
   TreePine,
   Users,
 } from 'lucide-react';
-import type { Program, Project, TeamMember } from './site-content';
+import type { Program, Project } from './site-content';
 
 const solibraFieldStoryEn =
   'With our partner SOLIBRA, for its 70th anniversary, Green Legacy Initiative organized a reforestation drive followed by sustainable-development education with students from Mondoukro in Toumodi and Samoukaha in Dianra, restoring 5 hectares alongside the lessons.';
@@ -14,9 +14,6 @@ const yamoussoukroFieldStoryEn =
   'At the Arts and Culture in Schools Festival in Yamoussoukro, Green Legacy Initiative supplied the saplings used to reforest 1 hectare at the Résidentiel school group.';
 
 export const siteContentEn = {
-  team: [
-    { name: 'Colonel Apata Nicolas', role: 'Project lead for the "One school, 5 hectares of forest" program · Colonel of the Eaux et Forêts (Water and Forestry Corps)' },
-  ] satisfies TeamMember[],
   brand: {
     name: 'Green Legacy Initiative',
     strapline: 'Geneva-based NGO · Ivorian ground operations',
@@ -51,7 +48,7 @@ export const siteContentEn = {
   ] satisfies Project[],
   faqs: [
     { q: 'Where are Green Legacy Initiative’s projects located?', a: 'All of our active projects are in Côte d’Ivoire. We work with schools and communities in Dabou, Agboville, Korhogo, Grand-Bassam and other Ivorian areas, depending on local partnerships.' },
-    { q: 'What does a €30 donation actually fund?', a: 'As a guide, €30 funds 100 trees: the seed, the nursery bag, planting and initial monitoring. Part of it also supports training local teams and measuring survival rates.' },
+    { q: 'What does my donation actually fund?', a: 'Your donation helps produce saplings, transport and plant them, train local teams, and monitor plots after planting. We detail these categories in the “Your donation becomes action” section.' },
     { q: 'How do you calculate surviving trees?', a: 'Field teams survey the plots at regular intervals. The survival rate is calculated on saplings tracked after their first dry season, not on a projection.' },
     { q: 'Can I come and take part in a work day?', a: 'Yes. We open several participatory days each rainy season. Leave us your details in the volunteer form and our team will suggest a date and a project that fits.' },
     { q: 'How do you track how donations are used?', a: 'Every project has a tracking sheet: plot, species, planting date and survival rate. We share an annual report and field news in our newsletter.' },

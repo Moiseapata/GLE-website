@@ -66,15 +66,7 @@ export type Project = {
   text: string;
 };
 
-export type TeamMember = {
-  name: string;
-  role: string;
-};
-
 export const siteContent = {
-  team: [
-    { name: 'Colonel Apata Nicolas', role: 'Chef de projet du programme « Une école, 5 hectares de forêt » · Colonel des Eaux et Forêts' },
-  ] satisfies TeamMember[],
   brand: {
     name: 'Green Legacy Initiative',
     strapline: homeDocument.metadata.eyebrow ?? 'ONG basée à Genève · terrain ivoirien',
@@ -109,7 +101,7 @@ export const siteContent = {
   ] satisfies Project[],
   faqs: [
     { q: 'Où sont situés les projets de Green Legacy Initiative ?', a: 'Tous nos projets actifs sont en Côte d’Ivoire. Nous travaillons avec des écoles et des communautés de Dabou, Agboville, Korhogo, Grand-Bassam et d’autres territoires ivoiriens selon les partenariats locaux.' },
-    { q: 'Que finance concrètement un don de 30 € ?', a: 'À titre indicatif, 30 € permettent de financer 100 arbres : la semence, le sac de pépinière, la mise en terre et les premiers suivis. Une part soutient aussi la formation des équipes locales et la mesure de survie.' },
+    { q: 'Que finance concrètement mon don ?', a: 'Votre don contribue à la production des plants, au transport et à la mise en terre, à la formation des équipes locales et au suivi des parcelles après plantation. Nous détaillons ces postes dans la section « Votre don devient une action ».' },
     { q: 'Comment calculez-vous les arbres survivants ?', a: 'Les équipes de terrain recensent les parcelles à intervalles réguliers. Le taux de survie est calculé sur les plants suivis après leur première saison sèche, et non sur une projection.' },
     { q: 'Puis-je venir participer à un chantier ?', a: 'Oui. Nous ouvrons plusieurs journées participatives par saison des pluies. Laissez-nous vos coordonnées dans le formulaire bénévole : l’équipe vous proposera une date et un projet adaptés.' },
     { q: 'Comment suivez-vous l’utilisation des dons ?', a: 'Chaque projet possède une fiche de suivi : parcelle, essence, date de plantation et taux de survie. Nous partageons un bilan annuel et les nouvelles de terrain dans notre lettre.' },
